@@ -1,0 +1,193 @@
+[
+    {
+      "name" : "PC",
+      "images" : [
+          {
+            "type": "image",
+            "src": "./images/PC/myPC-1.jpg"
+          },
+          {
+            "type": "image",
+            "src": "./images/PC/myPC-2.jpg"
+          },
+          {
+            "type": "image",
+            "src": "./images/PC/myPC-3.jpg"
+          },
+          {
+            "type": "image",
+            "src": "./images/PC/myPC-4.jpg"
+          },
+          {
+            "type": "image",
+            "src": "./images/PC/myPC-5.jpg"
+          },
+          {
+            "type": "image",
+            "src": "./images/PC/myPC-6.jpg"
+          },
+          {
+            "type": "image",
+            "src": "./images/PC/myPC-7.jpg"
+          },
+          {
+            "type": "image",
+            "src": "./images/PC/myPC-8.jpg"
+          },
+          {
+            "type": "image",
+            "src": "./images/PC/myPC-9.jpg"
+          },
+          {
+            "type": "image",
+            "src": "./images/PC/myPC-10.jpg"
+          },
+          {
+            "type": "image",
+            "src": "./images/PC/myPC-11.jpg"
+          },
+          {
+            "type": "image",
+            "src": "./images/PC/myPC-12.jpg"
+          }
+      ]
+    },
+    {
+      "name" : "Keyboard",
+      "images" : [
+          {
+            "src": "./images/Keyboard/Keyboard-4.jpg"
+          },
+          {
+            "src": "./images/Keyboard/Keyboard-6.jpg"
+          },
+          {
+            "src": "./images/Keyboard/Keyboard-2.jpg"
+          },
+          {
+            "src": "./images/Keyboard/Keyboard-3.jpg"
+          },
+          {
+            "src": "./images/Keyboard/Keyboard-5.jpg"
+          }
+      ]
+    },
+    {
+      "name" : "Calculator",
+      "images" : [
+          {
+            "src": "./images/Calculator/Calculator-1.jpg"
+          },
+          {
+            "src": "./images/Calculator/Calculator-2.jpg"
+          },
+          {
+            "src": "./images/Calculator/Calculator-3.jpg"
+          },
+          {
+            "src": "./images/Calculator/Calculator-4.jpg"
+          }
+      ]
+    },
+    {
+      "name" : "Akhil",
+      "images" : [
+          {
+            "src": "./images/PC/Akhil-1.jpg"
+          },
+          {
+            "src": "./images/PC/Akhil-2.jpg"
+          },
+          {
+            "src": "./images/PC/Akhil-3.jpg"
+          },
+          {
+            "src": "./images/PC/Akhil-4.jpg"
+          },
+          {
+            "src": "./images/PC/Akhil-5.jpg"
+          },
+          {
+            "src": "./images/PC/Akhil-6.jpg"
+          }
+      ]
+    },
+    {
+      "name" : "Andrew",
+      "images" : [
+          {
+            "src": "./images/PC/Andrew-1.jpg"
+          }
+      ]
+    },
+    {
+      "name" : "Grayson",
+      "images" : [
+          {
+            "src": "./images/PC/Grayson-1.jpg"
+          },
+          {
+            "src": "./images/PC/Grayson-2.jpg"
+          },
+          {
+            "src": "./images/PC/Grayson-3.jpg"
+          },
+          {
+            "src": "./images/PC/Grayson-4.png"
+          },
+          {
+            "src": "./images/PC/Grayson-5.jpg"
+          },
+          {
+            "src": "./images/PC/Grayson-6.jpg"
+          }
+      ]
+    },
+    {
+      "name" : "Home",
+      "images" : [
+          {
+            "src": "./images/PC/Home-1.jpg"
+          },
+          {
+            "src": "./images/PC/Home-2.jpg"
+          },
+          {
+            "src": "./images/PC/Home-3.jpg"
+          },
+          {
+            "src": "./images/PC/Home-4.jpg"
+          }
+      ]
+    },
+    {
+      "name" : "Maya",
+      "images" : [
+          {
+            "src": "./images/PC/Maya-1.jpg"
+          },
+          {
+            "src": "./images/PC/Maya-2.jpg"
+          },
+          {
+            "src": "./images/PC/Maya-3.jpg"
+          }
+      ]
+    },
+    {
+      "name" : "Oviya",
+      "images" : [
+          {
+            "src": "./images/PC/Oviya-1.png"
+          }
+      ]
+    },
+    {
+      "name" : "Robin",
+      "images" : [
+          {
+            "src": "./images/PC/RobinPC.jpg"
+          }
+      ]
+    }
+  ]
