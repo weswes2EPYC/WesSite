@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WesSite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cc3bd3248b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="keyboards">
+    <div id="container">
+        <nav>
+            <img src="images/" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="active"><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="experience-title">Built Keyboards</h1>
+
+        <div class="experience-row">
+            <div class="experience-col-1">
+                <div class="image-container">
+                    <button class="image-item" data-modal="true" data-gallery="Keyboard" aria-label="Open Keyboard image gallery">
+                      <img src="./images/Keyboard/Keyboard-4.jpg" alt="Keyboard">
+                    </button>
+                </div>
+            </div>
+            <div class="experience-col-2">
+                <div class="youtube-link" data-link="w9ewbnfLIbg">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
+                          </svg>                  
+                    </div>
+                    <h2>Custom Built Keyboard | 2024</h2>
+                </div>
+                <p>
+                    After months of researching and tired of my 20 dollar keyboard, I sought to build my own keyboard. My keyboard uses the Keychron Q2 Max chasis, 
+                    the Iqunix Moonstone Turbo 45g linear switches, and Winterglow Eve keycaps from Osume. In addition, I also modded the keyboard with the 
+                    force-break mod, tempest tape mod, and switched out the stock stablizers with Durock stabilizers. Click on the image on the left to open a photo gallery 
+                    or click the title to view the build video on Youtube (the recording unfortunately makes the keyboard sound a lot clackier than real life).
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="module">
+    import initGallery from "./js/galleryApp.js";
+    initGallery('./data/galleries.json', {
+      speed: 600,
+    })
+  </script>
+
+</body>
+</html>
+
+    <div class="youtube-player-overlay">
+        <div class="youtube-player-popup">
+            <iframe src="https://www.youtube.com/embed/" title="$1,700 2023 AMD AM5 Black Friday Build" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="js/youtubePopup.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WesSite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="about">
+    <div id="container">
+        <nav>
+            <img src="images/" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="about.html">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/DC_Portrait.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hi, I'm Wesley Hu, a current second-year majoring in Computer Science with a minor in Robotics at Georgia Tech.
+                    I'm a backend developer with 7+ years of experience with coding and has experience developing backend code for 
+                    multiple organizations and projects at Georgia Tech and throughout high school. I'm consistently recognized as 
+                    an effective hands-on leader when it comes to managing large projects and coordinating the efforts of 
+                    interdependent teams in a timely manner in deadline-driven environments.
+                    <br><br>
+                    I'm passionate in the field of machine learning, computer hardware, military technology, finance, and photography. 
+                    I have published papers and conducted research for the usage of transfer learning in cancer diagnosis. I've also 
+                    had extensive experience working with electronics such as Raspberry Pis, programmable drones, and breadboards.
+                </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Machine Learning</span><br>CNN, Transfer Learning, OpenCV, TensorFlow, PyTorch, Numpy, Pandas</li>
+                            <li><span>Programming</span><br>Python, Java, HTML, CSS, C++, JS, React Native, Typescript</li>
+                            <li><span>Hardware</span><br>Breadboard, Soldering, Arduino, Raspberry Pi, Programmable Drones, Computer Components, Overclocking</li>
+                            <li><span>Database</span><br>SQL, DBMS, EERD Models, MangoDB, JSON</li>
+                            <li><span>Multimedia</span><br>Photoshop, Premiere, After Effects, Davinici Resolve</li>
+                            <li><span>CAD</span><br>Autodesk Fusion 360, Autodesk Inventor, 3D Printing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Present</span><br>Computer Science BS at Georgia Tech</li>
+                            <li><span>2024 - 2024</span><br>Study Abroad at Mansfield College, Oxford University</li>
+                            <li><span>2019 - 2023</span><br>James Madison High School</li>
+                            <li><span>2022 - 2023</span><br>Dual Enrollment at George Mason University</li>
+                            <li><span>2022 - 2022</span><br>Virginia Governor's School at the University of Lynchburg</li>
+                            <li><button><a href="education.html">All Education</a></button></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Present</span><br>Machine Learning Specialist at thnkrAI</li>
+                            <li><span>2024</span><br>Creating A Personal Website</li>
+                            <li><span>2024</span><br>Change of Color Basis for Images</li>
+                            <li><span>2023</span><br>Building PC Workstation From Scratch</li>
+                            <li><span>2023</span><br>Administrative Intern at Interstate</li>
+                            <li><span>2021 - 2022</span><br>CNN Transfer Learning for Cancer Diagnosis Publication</li>
+                            <li><button><a href="experience.html">Job Experiences</a></button><button><a href="projects.html">All Projects</a></button></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+</body>
+</html>
