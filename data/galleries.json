@@ -117,6 +117,15 @@
       "images" : [
           {
             "src": "./images/PC/Andrew-1.jpg"
+          },
+          {
+            "src": "./images/PC/Andrew-2.jpg"
+          },
+          {
+            "src": "./images/PC/Andrew-3.jpg"
+          },
+          {
+            "src": "./images/PC/Andrew-4.jpg"
           }
       ]
     },
@@ -187,6 +196,20 @@
       "images" : [
           {
             "src": "./images/PC/RobinPC.jpg"
+          }
+      ]
+    },
+    {
+      "name" : "STEM_camp",
+      "images" : [
+          {
+            "src": "./images/Teaching-1.jpg"
+          },
+          {
+            "src": "./images/Teaching-2.jpg"
+          },
+          {
+            "src": "./images/Teaching-3.jpg"
           }
       ]
     }

@@ -90,7 +90,11 @@
         </div>
         <div class="experience-row">
             <div class="experience-col-1">
-                <img src="images/JMHS_TSA.webp" alt="">
+                <div class="image-container">
+                    <button class=" experience-image-item" data-modal="true" data-gallery="STEM_camp" aria-label="Open image gallery">
+                        <img src="images/JMHS_TSA.webp" alt="">
+                    </button>
+                </div>
             </div>
             <div class="experience-col-2">
                 <h1>Hosting STEM Camp Fundraiser</h1>
@@ -99,7 +103,8 @@
                     In order to fundraise for our Technology Student Association's National competition, I hosted a 2-day long 
                     STEM camp during memorial weekend teaching fundamentals of CAD and 3D printing with Autodesk Fusion 360 to 
                     elementary and middle schoolers. We successfully raised over $1,000 for our competition and every student 
-                    could create any object they wanted in CAD and knew how to use a 3D printer.
+                    could create any object they wanted in CAD and knew how to use a 3D printer. Click on the JMHS TSA logo to 
+                    open up an image gallery.
                 </p>
             </div>
         </div>
@@ -107,6 +112,13 @@
 
     </div>
 </div>
+
+<script type="module">
+    import initGallery from "./js/galleryApp.js";
+    initGallery('./data/galleries.json', {
+      speed: 600,
+    })
+</script>
 
 </body>
 </html>
