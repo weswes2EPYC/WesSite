@@ -34,13 +34,14 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #171c30e7;
+    background-color: rgb(6, 27, 40);
     padding-left: 2%;
     padding-right: 2%;
 }
 
 .logo{
-    width: 140px;
+    width: 80px;
+    padding: 5px 0px;
 }
 
 nav ul li{
@@ -482,7 +483,7 @@ form .btn2{
     position: relative;
 }
 
-.experience-col-1 img{
+.experience-col-1 img, .experience-col-1 video{
     background-color: #c4c4c4;
     width: 240px;
     height: 240px;
@@ -629,42 +630,32 @@ form .btn2{
     height: 100%;
 }
 
-/* --------PROJECT SECTION--------- */
-
-.image-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    overflow: hidden;
-    padding-right: 10%;
-  }
-  
-  .image-item {
-    flex: 1 0 28%;
-    min-width: 200px;
+/* --------PROJECT SECTION--------- */  
+.experience-col-1.showcase img, .experience-col-1.showcase video{
+    height: 250px;
+    object-fit: cover;
+    margin-top: 4%;
+    transition: transform 250ms cubic-bezier(0.79, 0.25, 0, 1.07);
     cursor: pointer;
     background: none;
     outline: none;
-    border-radius: 15px;
-  }
+    flex: 1 0 28%;
+}
+
+.experience-col-1.showcase.TSA img{
+    background-color: #c4c4c4;
+    object-fit: contain;
+}
   
-  .image-item img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    transition: transform 250ms cubic-bezier(0.79, 0.25, 0, 1.07);
+  .experience-col-1.showcase:is(:hover, :focus) img,
+  .experience-col-1.showcase:is(:hover, :focus) video {
+    transform: scale(1.03);
   }
 
-  .image-item video {
-    width: 100%;
+  .experience-col-1.no-zoom img{
     height: 250px;
-    object-fit: contain;
-    transition: transform 250ms cubic-bezier(0.79, 0.25, 0, 1.07);
-  }
-  
-  .image-item:is(:hover, :focus) img {
-    transform: scale(1.03);
+    object-fit: cover;
+    outline: none;
   }
 
   .youtube-link .icon{
