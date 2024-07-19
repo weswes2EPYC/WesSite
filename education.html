@@ -12,7 +12,7 @@
     <div id="container">
         <nav>
             <img src="images/" class="logo">
-            <ul>
+            <ul id = "sidemenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li class="active"><a href="education.html">Education</a></li>
@@ -20,13 +20,15 @@
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="hobbies.html">Hobbies</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <h1 class="sub-title">Education</h1>
         <div class="education-list">
             <div class="school">
                 <img src="images/Georgia_Tech.jpg">
-                <div class="layer">
+                <div class="layer GeorgiaTech">
                     <img src="images/GT_logo.png" alt="https://news.gatech.edu/sites/default/files/2021-09/gt-logo-rebrand.png">
                     <p>BS in Computer Science and minor in Robotics<br>Years: 2023 - 2027<br>GPA: 3.88</p>
                 </div>
@@ -62,6 +64,18 @@
         </div>
     </div>
 </div>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-150px";
+    }
+</script>
 
 </body>
 </html>

@@ -12,7 +12,7 @@
     <div id="container">
         <nav>
             <img src="images/" class="logo">
-            <ul>
+            <ul id = "sidemenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="education.html">Education</a></li>
@@ -20,7 +20,9 @@
                 <li><a href="projects.html">Projects</a></li>
                 <li class="active"><a href="hobbies.html">Hobbies</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <h1 class="experience-title computers">Built Computers</h1>
         <h3 class="subheading">Click on the images to open up a photo gallery</h3>
@@ -40,7 +42,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
                           </svg>                  
                     </div>
-                    <h2>My Personal Workstation | 2023</h2>
+                    <h2>$1,700 Personal Workstation | 2023</h2>
                 </div>
                 <p>
                     Built my first personal computer during Black Friday with a budget of $1,700 tailored towards my needs for 
@@ -68,16 +70,17 @@
                 </div>
             </div>
             <div class="experience-col-2 projects-linked">
-                <h2>Andrew Computer | 2022</h2>
+                <h2>$1,300 Gaming PC | 2022</h2>
                 <p>
-                    CPU: Intel Core i5 10600k<br>
-                    Cooler: Thermalright IDK<br>
-                    Mobo: ASUS ROG STRIX IDK<br>
-                    RAM: 16gb (2x8) DDR4 IDKMhz CL18-CLIDK<br>
-                    GPU: BRANDIDK GTX 1650<br>
-                    Storage: SIZEIDK M.2-2280 BRANDIDK PCIe 3.0 X4 NVMe SSD<br>
-                    PSU: EVGA IDK (80+ Gold) 750W<br>
-                    Case: Lian Li Lancool 216 MAYBE
+                    Note: GPU purchased during COVID era for an inflated price<br><br>
+                    CPU: Intel Core i7 10700k<br>
+                    Cooler: Vetroo V5<br>
+                    Mobo: ASUS ROG STRIX B560-A<br>
+                    RAM: 16gb (2x8) DDR4 3200Mhz CL18-22-22-42<br>
+                    GPU: EVGA GTX 1650<br>
+                    Storage: 500GB M.2-2280 Samsung 980 PCIe 3.0 X4 NVMe SSD<br>
+                    PSU: EVGA 650GD (80+ Bronze) 650W<br>
+                    Case: Lian Li Lancool 215
                 </p>
             </div>
         </div>
@@ -237,5 +240,17 @@
 
     <script src="js/youtubePopup.js"></script>
 
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+    
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+    
+        function closemenu(){
+            sidemenu.style.right = "-150px";
+        }
+    </script>
 </body>
 </html>

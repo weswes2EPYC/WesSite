@@ -12,7 +12,7 @@
     <div id="container">
         <nav>
             <img src="images/logo" class="logo">
-            <ul>
+            <ul id = "sidemenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="education.html">Education</a></li>
@@ -20,7 +20,9 @@
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="hobbies.html">Hobbies</a></li>
                 <li class="active"><a href="contact.html">Contact</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="row">
             <div class="contact-left">
@@ -65,6 +67,18 @@
         })
         .catch(error => console.error('Error!', error.message))
     })
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-150px";
+    }
 </script>
 
 </body>
