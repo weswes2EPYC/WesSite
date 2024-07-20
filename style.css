@@ -508,8 +508,12 @@ form .btn2{
     margin-top: 1%;
 }
 
-.experience-col-2 > h2 > span{
+.experience-col-2 > h2 > .underDevelopment{
     color: red;
+}
+
+.experience-col-2 > h2 > .justLaunched{
+    color: #26dbd2;
 }
 
 .experience-col-2 p a{
