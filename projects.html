@@ -12,7 +12,7 @@
     <div id="container">
         <nav>
             <img src="images/logo2.png" class="logo">
-            <ul>
+            <ul id="sidemenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="education.html">Education</a></li>
@@ -20,7 +20,9 @@
                 <li class="active"><a href="projects.html">Projects</a></li>
                 <li><a href="hobbies.html">Hobbies</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <h1 class="experience-title">Projects</h1>
 
@@ -80,7 +82,7 @@
 
         <div class="experience-row">
             <div class="experience-col-1 showcase">
-                <img class="image-item" data-modal="true" data-gallery="Food" aria-label="Open Food image gallery" src="./images/food/food-1--sm.jpg" alt="Food">
+                <img class="image-item" data-modal="true" data-gallery="Lin-alg" aria-label="Open RGB image gallery" src="./images/RGB-transform.png">
             </div>
             <div class="experience-col-2">
                 <h2>Image RGB Change of Basis | 2024</h2>
@@ -241,18 +243,25 @@
     initGallery('./data/galleries.json', {
       speed: 600,
     })
-  </script>
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
 
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-150px";
+    }
+</script>
 </body>
 </html>
 
-    <div class="youtube-player-overlay">
-        <div class="youtube-player-popup">
-            <iframe src="https://www.youtube.com/embed/" title="$1,700 2023 AMD AM5 Black Friday Build" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+<div class="youtube-player-overlay">
+    <div class="youtube-player-popup">
+        <iframe src="https://www.youtube.com/embed/" title="$1,700 2023 AMD AM5 Black Friday Build" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+</div>
 
-    <script src="js/youtubePopup.js"></script>
-
-</body>
-</html>
+<script src="js/youtubePopup.js"></script>

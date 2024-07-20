@@ -40,7 +40,8 @@ nav{
 }
 
 .logo{
-    width: 80px;
+    max-width: 80px;
+    width: 5vw;
     padding: 5px 0px;
 }
 
@@ -493,6 +494,7 @@ form .btn2{
 
 .experience-col-2{
     flex-basis: 50%;
+    margin-left: 5%;
     margin-right: auto;
 }
 
@@ -751,10 +753,7 @@ nav .fas{
     display: none;
 }
 
-@media only screen and (max-width: 950px){
-    #header{
-        background-position-x: 0%;
-    }
+@media only screen and (max-width: 980px){
     nav .fas{
         display: block;
         font-size: 50px;
@@ -783,6 +782,15 @@ nav .fas{
         left: 25px;
         cursor: pointer;
     }
+    .logo{
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    #header{
+        background-position-x: 0%;
+    }
     .header-text {
         max-width: 50%;
     }
@@ -791,6 +799,28 @@ nav .fas{
     }
     .Updates h1{
         font-size: 20px;
+    }
+    .experience-col-1, .experience-col-2 {
+        flex-basis: 100%;
+    }
+    .experience-col-2, .experience-title{
+        text-align: center;
+        margin: 0 5%;
+    }
+    .youtube-link{
+        translate: 20px 0;
+    }
+    .experience-col-1 img, .experience-col-1 video {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .experience-col-2 h2{
+        padding-top: 1.5%;
+    }
+    .experience-row{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -801,6 +831,10 @@ nav .fas{
     nav .fas{
         display: block;
         font-size: 35px;
+    }
+
+    .logo{
+        width: 40px;
     }
 
     .header-text{
@@ -884,5 +918,14 @@ nav .fas{
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
+    }
+    .experience-col-2 h2{
+        font-size: 18px;
+    }
+    .experience-col-2 p{
+        font-size: 14px;
+    }
+    .experience-title{
+        font-size: 45px;
     }
 }
