@@ -916,6 +916,15 @@ nav .fas{
         color: #000000;
         font-size: 14px;
     }
+    .school:hover img{
+        transform: none;
+    }
+    .school:hover .layer p{
+        color: inherit;
+    }
+    .school:hover .layer img{
+        height: auto;
+    }
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
