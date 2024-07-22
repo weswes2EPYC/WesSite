@@ -13,8 +13,8 @@
 <div id="keyboards">
     <div id="container">
         <nav>
-            <img src="images/logo2.png" class="logo">
-            <ul>
+            <a href="index.html"><img src="images/logo2.png" class="logo"></a>
+            <ul id="sidemenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="education.html">Education</a></li>
@@ -22,7 +22,9 @@
                 <li><a href="projects.html">Projects</a></li>
                 <li class="active"><a href="hobbies.html">Hobbies</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <h1 class="experience-title">Built Keyboards</h1>
 
@@ -57,6 +59,18 @@
     })
   </script>
 
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-150px";
+    }
+</script>
+
 </body>
 </html>
 
@@ -67,6 +81,3 @@
     </div>
 
     <script src="js/youtubePopup.js"></script>
-
-</body>
-</html>
