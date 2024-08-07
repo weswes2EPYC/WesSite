@@ -569,11 +569,13 @@ form .btn2{
 
 .school img{
     width: 100%;
+    height: 100%;
     border-radius: 10px;
     min-height: 310px;
     display: block;
     transition: transform 0.5s;
     scale: 1.01;
+    object-fit: cover;
 }
 
 .layer{
