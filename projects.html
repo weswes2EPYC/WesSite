@@ -159,11 +159,17 @@
                 </div>
             </div>
             <div class="experience-col-2">
-                <h2>Python Day-Trading Assistant | 2021</h2>
+                <h2>Python Day-Trading Assistant | 2021 - <span class="underDevelopment"> 2024 Update Under Development</span></h2>
                 <p>
-                    I created a day-trading assistant in Python that used YFinance API to grab real time stock data and send alerts/notifications 
+                    I created a day-trading assistant in Python that used Yahoo Finance's downloadable CSVs to grab historical stock data and send alerts/notifications 
                     whenever certain conditions were met. I used modified versions of this day-trading assistant during investment competitions 
                     through the investment club I ran at my high school.
+                    <br><br>
+                    2024 Update V2.1:<br>
+                    This updated code now automatically runs at key specific times during active trading hours daily (keeping track of holidays) using Windows Scheduler. This script uses Pyppeteer 
+                    in Python to webscrape live market data and records them in a JSON file to keep track of historical data throughout the trading day. In combination with 
+                    YFinance API to grab past week closing prices, the script will automatically send different alerts through email to all recipients depending on the conditions met. 
+                    The script will record stock data and check conditions for every stock listed in a JSON array.
                 </p>
             </div>
         </div>
