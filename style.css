@@ -479,7 +479,7 @@ form .btn2{
 }
 
 .experience-col-1{
-    flex-basis: 20%;
+    flex-basis: 10%;
     margin-left: auto;
     position: relative;
 }
@@ -494,6 +494,7 @@ form .btn2{
 
 .experience-col-2{
     flex-basis: 50%;
+    max-width: 900px;
     margin-left: 5%;
     margin-right: auto;
 }
