@@ -203,6 +203,9 @@ nav ul li a:hover{
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
+    max-width: 800px;
+    margin-right: 10%;
+    margin-left: 5%;
 }
 
 .about-col-2{
