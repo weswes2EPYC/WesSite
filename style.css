@@ -373,6 +373,13 @@ nav ul li a:hover{
 
 /* ------CONTACT SECTION-------- */
 
+.contact-row{
+    max-width: 1920px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .contact-left{
     padding-left: 5%;
     flex-basis: 35%;
