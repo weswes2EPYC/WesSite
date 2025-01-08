@@ -308,7 +308,7 @@ nav ul li a:hover{
 }
 
 #hobbies .sub-title{
-    margin: 4%;
+    margin: 6%;
     text-align: center;
 }
 
@@ -567,7 +567,7 @@ form .btn2{
 
 #education .sub-title{
     text-align: center;
-    margin-top: 2%;
+    margin-top: 6%;
     margin-bottom: 3%;
 }
 
@@ -884,6 +884,7 @@ nav .fas{
     }
     .sub-title{
         font-size: 40px;
+        margin-top: 6%;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;

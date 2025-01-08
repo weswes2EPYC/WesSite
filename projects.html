@@ -30,14 +30,58 @@
 
         <div class="experience-row">
             <div class="experience-col-1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEZ3wPH-RD0U8S7h9Zovh4jMEUINrBBIeD-g&s" alt="">
+            </div>
+            <div class="experience-col-2">
+                <h2>Hosting Immich and Open Media Vault on NAS<span class="justLaunched"> | Just Deployed</span></h2>
+                <p>
+                    My NAS will be used for two main purposes, media backup and file sharing. The NAS is running Open Media Vault (OMV) for a nice way to monitor 
+                    system performance and file systems or partitions. For file sharing, I had set up an SMB server on OMV which allows my PC, laptop, and Android to access 
+                    files I constantly access and needs to be synced. For media backup I am using a service called Immich. With Immich, I can manually adjust settings that aren't 
+                    accessible in other services like Google Photos. I fine-tuned the backup settings to transcode videos with near lossless compression without taking up significant 
+                    network bandwidth to stream videos. Immich also allows me to fine-tune machine learning parameters for facial recognition which works significantly better than 
+                    Google Photo's algorithm. In order to manage my NAS on OMV and access Immich remotely, I had bought a domain name and set up Cloudflare Tunnels using 
+                    Cloudflare Zero-Trust to gain remote access to my NAS. Thanks to Cloudflare Tunnels, I am able to not only access the server remotely but also generate 
+                    sharing links for friends and family who aren't on my Immich instance.
+                </p>
+            </div>
+        </div>
+
+        <div class="experience-row">
+            <div class="experience-col-1">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrmte55lIHoqvVa6vjl_6p2ody53hvyweeSg&s" alt="">
             </div>
             <div class="experience-col-2">
-                <h2>Build NAS from Scratch <span class="underDevelopment"> | Under Development</span></h2>
+                <h2>Build NAS from Scratch <span class="justLaunched"> | Just Deployed</span></h2>
                 <p>
-                    I plan on building a NAS running Linux with Raid 5 from scratch which will enable me to complete more
-                    projects without needing to pay for cloud. The NAS will be running on a Raspberry Pi 5 with a Penta SATA Hat from Radxa. I will be 
-                    designing a custom case that improves asthetics, structural integrity, and allows for easy access to drives.
+                    In order to cut down on subscriptions and my reliability on cloud service providers, I built a NAS running Ubuntu with Raid 5 from scratch. 
+                    The NAS will be running on a Raspberry Pi 5 with a Penta SATA Hat from Radxa with three 2.5" SSDs from Crucial. The NAS currently has 3 Crucial 
+                    BX500 2TB SSDs installed for a total capacity of 6TB and 4TB of usable storage with Raid 5. The storage can be expanded to a total of 5 drives 
+                    for a total capacity of 10TB and 8TB of usable data. I designed and 3D printed a custom case that improves asthetics, structural integrity, 
+                    and allows for easy access to add/replace drives. The top half of the case features a Radxa Penta Sata Hat Top Board that features a small 40mm
+                    fan to cool the drives, a small OLED display to show system information, and a button to interact with the NAS and OLED screen. The top half is 
+                    fully removable thanks to small magnetic pogo pins I had soldered to the original wires that keep the two halves together magnetically. A simple 
+                    Bash script is running as a background service which polls the top board and senses when the top board is disconnected and reconnected in order to 
+                    automatically restart the top board service for a seamless user interaction.
+                </p>
+            </div>
+        </div>
+
+        <div class="experience-row">
+            <div class="experience-col-1 experience-linked">
+                <div class="image-container">
+                    <a href="https://spotifywrapper.pythonanywhere.com" target="_blank"><img src="images/Spotify.png" alt=""></a>
+                </div>
+        
+            </div>
+            <div class="experience-col-2">
+                <h2>Spotify Wrapper <span class="justLaunched"> | Just Deployed</span></h2>
+                <p>
+                    Me and my team of four other Georgia Tech Computer Science majors: Jaiden Lee, Sherry Li, Dallin Liu and Jayden Wen, designed a website in Django that allowed users to create Spotify Wraps for our second  
+                    CS2340 Project. In this project, we utilized the Scrum Agile methodology in our project where I acted as the Project Owner. Our project was to be completed in 3 sprints, each lasting about a week. Our 
+                    final product will address all User Stories by creating a user friendly website design that scales on mobile. Users will be able to sign up and log in to create and view Spotify Wraps anywhere from the last week to the last year.  
+                    Users can also choose to make their Spotify Wrapped public or private and have the option to share their Spotify Wrap on social media. 
+                    Click on the image or <span><a href="https://spotifywrapper.pythonanywhere.com" target="_blank">Here</a></span> to view our deployed site and <span><a href="https://github.com/weswes2EPYC/Spotify-Wrapped" target="_blank">Here</a></span> to view our GitHub repository! 
                 </p>
             </div>
         </div>
@@ -57,7 +101,7 @@
                                 d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
                         </svg>
                     </div>
-                    <h2>Agiler, 2024 AI ATL Hackathon <span class="justLaunched"> | Just Deployed</span></h2>
+                    <h2>Agiler, 2024 AI ATL Hackathon</h2>
                 </div>
                 <p>
                     I competed in the 2024 AI ATL Hackathon with Jaiden Lee and Alison Vu. We had two days to build and deploy our hackathon project. For this hackathon, we created Agiler, an AI powered project management tool 
@@ -252,20 +296,7 @@
         </div>
 
         <h1 class="experience-title">Planned Projects Roadmap</h1>
-        <div class="experience-row">
-            <div class="experience-col-1">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEZ3wPH-RD0U8S7h9Zovh4jMEUINrBBIeD-g&s" alt="">
-            </div>
-            <div class="experience-col-2">
-                <h2>Hosting Immich on NAS<span class="underDevelopment"> | Planned</span></h2>
-                <p>
-                    The one thing I hate is needing to clean out photos for more storage but I also hate paying for services like 
-                    Google Photos or iCloud. To solve, this I decided to host my own cloud library for photos, videos, and other documents 
-                    while still making them accessible to my devices even when I'm not connected to the same network. I will use an Immich 
-                    installation on my NAS and Raid 5 to make sure my data is secure and recoverable.
-                </p>
-            </div>
-        </div>
+        
         <div class="experience-row">
             <div class="experience-col-1 no-zoom">
                 <img src="images/AJAX.jpg" alt="">
