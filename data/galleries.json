@@ -214,13 +214,31 @@
       ]
     },
     {
-      "name" : "Lin-alg",
+      "name" : "NAS",
       "images" : [
           {
-            "src": "./images/RGB-1.png"
+            "src": "./images/NAS/NAS-3.jpg"
           },
           {
-            "src": "./images/RGB-2.png"
+            "src": "./images/NAS/NAS-4.jpg"
+          },
+          {
+            "src": "./images/NAS/NAS-2.jpg"
+          },
+          {
+            "src": "./images/NAS/NAS-1.jpg"
+          },
+          {
+            "src": "./images/NAS/NAS-5.jpg"
+          },
+          {
+            "src": "./images/NAS/NAS-6.jpg"
+          },
+          {
+            "src": "./images/NAS/NAS-7.jpg"
+          },
+          {
+            "src": "./images/NAS/NAS-8.jpeg"
           }
       ]
     }
