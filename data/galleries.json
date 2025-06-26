@@ -73,6 +73,17 @@
       ]
     },
     {
+      "name" : "Lin-alg",
+      "images" : [
+          {
+            "src": "./images/RGB-2.png"
+          },
+          {
+            "src": "./images/RGB-1.png"
+          }
+      ]
+    },
+    {
       "name" : "Calculator",
       "images" : [
           {
