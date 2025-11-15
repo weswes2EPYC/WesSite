@@ -252,5 +252,36 @@
             "src": "./images/NAS/NAS-8.jpeg"
           }
       ]
+    }, 
+    {
+      "name" : "Tryon-AI",
+      "images" : [
+          {
+            "src": "./images/TryonAI/mainPage.jpg"
+          },
+          {
+            "src": "./images/TryonAI/Jaiden1.jpg"
+          },
+          {
+            "src": "./images/TryonAI/Pranjal1.jpg"
+          }
+      ]
+    },
+    {
+      "name" : "ViperView",
+      "images" : [
+          {
+            "src": "./images/ViperView/ViperView.jpg"
+          },
+          {
+            "src": "./images/ViperView/pov.jpg"
+          },
+          {
+            "src": "./images/ViperView/dark.jpg"
+          },
+          {
+            "src": "./images/ViperView/posterjpg.jpg"
+          }
+      ]
     }
   ]
