@@ -152,6 +152,14 @@ nav ul li a:hover{
     color: #ffffff;
 }
 
+.modal__image {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    pointer-events: none;
+}
+
 /* Updates and Announcements section */
 .Updates{
     max-width: 45%;
